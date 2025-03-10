@@ -18,8 +18,8 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-xl text-white mb-8 max-w-2xl">
-            We're here to answer your questions and help you book your
-            consultation
+            {`We're here to answer your questions and help you book your
+            consultation`}
           </p>
         </div>
       </section>
