@@ -63,17 +63,17 @@ export default function AboutPage() {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                Elegance Aesthetics was founded in 2010 with a vision to create
+                {`Elegance Aesthetics was founded in 2010 with a vision to create
                 a sanctuary where art and science converge to enhance natural
                 beauty. What began as a small clinic with a dedicated team of
                 two has grown into one of India's premier aesthetic
-                destinations.
+                destinations.`}
               </p>
               <p className="text-gray-600 mb-4">
-                Our philosophy is rooted in the belief that aesthetic treatments
+                {`Our philosophy is rooted in the belief that aesthetic treatments
                 should enhance, not alter. We take pride in our personalized
                 approach, taking the time to understand each client's unique
-                concerns and desires before recommending treatments.
+                concerns and desires before recommending treatments.`}
               </p>
               <p className="text-gray-600">
                 Over the years, we have continuously evolved, investing in the
@@ -263,8 +263,8 @@ export default function AboutPage() {
             Begin Your Journey With Us
           </h2>
           <p className="mb-8 text-gray-300">
-            We'd love to welcome you to our clinic and discuss how we can help
-            you achieve your aesthetic goals.
+            {`We'd love to welcome you to our clinic and discuss how we can help
+            you achieve your aesthetic goals.`}
           </p>
           <Link
             href="/contact"
